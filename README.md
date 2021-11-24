@@ -3,7 +3,7 @@
 Initial Installation
 
     1. Find the folder where you’ve installed ImageJ
-    2. Go to 		ImageJ\Macros 	and copy JustCrop.ijm to that folder
+    2. Go to the folder ImageJ\Macros and copy JustCrop.ijm to that folder
     3. Open ImageJ
     4. Go to Plugins → Macros (First one)→ Install…	Then select “batchCrop.ijm”
     5. Download ImageMagick from: https://imagemagick.org/script/download.php#windows 
