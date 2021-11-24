@@ -1,6 +1,6 @@
 # Crop and Collage Tools
  Tools for creating a collage of crops from a series of images using imageJ and imageMagick
-Initial Installation
+## Initial Installation
 
     1. Find the folder where you’ve installed ImageJ
     2. Go to the folder ImageJ\Macros and copy JustCrop.ijm to that folder
@@ -12,7 +12,7 @@ Initial Installation
         2. Continue through until the installation is complete
 
 
-Workflow
+## Workflow
        
     1. Open ImageJ
     2. Plugins → Macros (2nd one) → “batchCrop”
