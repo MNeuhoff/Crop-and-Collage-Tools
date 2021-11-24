@@ -4,7 +4,7 @@
  from that image into a directory. 
 ## Initial Installation
 
-1. Find the folder where you’ve installed ImageJ
+1. Find the folder where you’ve installed ImageJ (You can get imageJ from [Here](https://imagej.nih.gov/ij/download.html))
 2. Go to the folder ImageJ\Macros and copy JustCrop.ijm to that folder
 3. Open ImageJ
 4. Go to Plugins → Macros (First one)→ Install…	Then select “batchCrop.ijm”
