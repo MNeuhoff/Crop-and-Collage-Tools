@@ -1,5 +1,7 @@
 # Crop and Collage Tools
- Tools for creating a collage of crops from a series of images using imageJ and imageMagick
+ Tools for creating a collage of crops from a series of images using imageJ and imageMagick. This project was created with the goal of streamlining
+ manual measuring of DNA origami structures from TEM images. The imageJ macro provides a quick way to go through a folder of images and save crops
+ from that image into a directory. 
 ## Initial Installation
 
 1. Find the folder where you’ve installed ImageJ
@@ -26,9 +28,13 @@
 10. Hit OK on the “Action Required” Window
 11. The process will repeat for each image in the source folder
 
+When you are finished, you will now have two folders within your selected destination folder. The first, **Crop ROIs**, contains the coordinates of the 
+selections from each image as a .zip file. These can be opened in the imageJ ROI manager if you would like to change a few selections without having
+to reselect everything in each image. The second, **Cropped_Images**, contains the actual images.
+
 Next you need to make a montage from the cropped images.
 
-12. Copy Montage_v1.5.bat from the “Crop and Collage Tools” folder to the directory with all of the freshly cropped images. 
+12. Copy Montage_v1.5.bat from the “Crop and Collage Tools” folder to the directory with all of the freshly cropped images (**Cropped_Images**). 
 13. Double click on Montage_v1.5.bat and after it completes you should have a picture called montage.png in folder and that’s your finished project.
 
 ## Please feel free to raise any issues on Github (or find me on Slack for help)
